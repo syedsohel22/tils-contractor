@@ -18,6 +18,10 @@
 
 .hero {
   display: flex;
+  padding: 20px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right bottom, #6a5af9, #f62682);
 }
 .hero > img {
   width: 250px;
@@ -27,4 +31,9 @@
 
 .social > img {
   width: 40px;
+}
+.social > span {
+  font-size: 50px;
+  margin: 100px 0px 100px 0px;
+  padding: 20px;
 }
